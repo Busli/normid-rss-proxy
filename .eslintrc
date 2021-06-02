@@ -36,6 +36,8 @@
         "jsx": "never"
       }
     ],
+    "import/no-unresolved": "warn",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "quotes": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
